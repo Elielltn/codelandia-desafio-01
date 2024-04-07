@@ -1,0 +1,153 @@
+:root {
+  --dark-10: #121214;
+  --dark-20: #17171a;
+  --dark-30: #202024;
+  --dark-40: #252529;
+  --brand: #e07b67;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--dark-10);
+  font-family: "Space Grotesk", sans-serif;
+  overflow-x: hidden;
+}
+
+input,
+button {
+  all: unset;
+}
+
+.icons {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+.header {
+  width: 100vw;
+  height: 20.9rem;
+  background-color: var(--dark-20);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-h1 {
+  color: var(--brand);
+
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 5.104rem;
+}
+.h1-span {
+  color: #fff;
+}
+
+.input-area {
+  max-width: 100vw;
+  margin-top: 2.4rem;
+  /* Isso aqui é pro tablet */
+  /* padding: 0 3.2rem; */
+}
+
+.input-holder {
+  max-width: 121.6rem;
+  display: flex;
+  align-items: center;
+  padding: 1.6rem 2.4rem;
+  border: 0.2rem solid var(--dark-40);
+  border-radius: 0.8rem;
+  gap: 1.6rem;
+  background-color: var(--dark-30);
+}
+
+.btn-lupe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-input {
+  width: 144.4rem;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  text-justify: center;
+}
+
+.cards {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+  gap: 4rem;
+}
+
+.card {
+  max-width: 121.6rem;
+  padding: 4rem;
+  border: 0.2rem solid var(--dark-40);
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.active {
+  border: 0.2rem solid var(--brand);
+}
+
+.card-details {
+  max-width: 113.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heart-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+.heart-icon:hover {
+  cursor: pointer;
+}
+
+.date {
+  color: var(--brand);
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.card-title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3.062rem;
+}
+
+.card-para {
+  color: #afabb6;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+}

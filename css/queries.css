@@ -1,0 +1,87 @@
+@media (max-width: 768px) {
+  .input-area {
+    /* Isso aqui é pro tablet */
+    padding: 0 3.2rem;
+  }
+
+  .cards {
+    padding-top: 5.6rem;
+    padding-right: 3.2rem;
+    padding-left: 3.2rem;
+    gap: 4rem;
+  }
+
+  .card {
+    gap: 2.4rem;
+  }
+
+  .date {
+    font-size: 1.4rem;
+  }
+  .heart-icon {
+    height:2.4rem;
+    width: 2.4rem;
+  } 
+
+
+
+  .card-title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3.062rem;
+  }
+  
+  .card-para {
+    color: #afabb6;
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+  }
+  
+}
+
+@media (max-width: 375px) {
+  .input-area {
+    /* Isso aqui é pro tablet */
+    padding: 0 2.4rem;
+    background-color: blue;
+  }
+
+  .cards {
+    padding-top: 4rem;
+    padding-right: 2.4rem;
+    padding-left: 2.4rem;
+    gap: 4rem;
+  }
+
+  .card {
+    gap: 2rem;
+  }
+
+  .date {
+    font-size: 1.2rem;
+  }
+
+  .heart-icon{
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .card-title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3.062rem;
+  }
+  
+  .card-para {
+    color: #afabb6;
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+  }
+  
+}
